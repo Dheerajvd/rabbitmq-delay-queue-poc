@@ -301,4 +301,3 @@ The delay is chosen per job as 1, 2, or 5 minutes. `FIXED_DELAY_MINUTES` is unus
 - The UI countdown never writes timestamps or status.
 - One consumer process is assumed. Two servers would both compete for `poc.ready`.
 - A message in a delay queue cannot be selected by id before its TTL. **Clear** deletes the SQLite row only.
-- `docs/ARCHITECTURE.md`, `docs/TESTING.md`, and parts of `docs/TIMESTAMP_SEMANTICS.md` still describe the original single `poc.delay` queue and a fixed five-minute delay. This README is the current description. [docs/RABBITMQ_REFERENCES.md](docs/RABBITMQ_REFERENCES.md) lists the RabbitMQ documents the topology follows.
