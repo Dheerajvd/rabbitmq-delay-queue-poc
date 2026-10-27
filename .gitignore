@@ -1,0 +1,14 @@
+.env
+.env.example
+data/
+*.db
+*.db-wal
+*.db-shm
+backend/data/
+frontend/node_modules/
+frontend/dist/
+redis-hash/
+docs/
+scripts/
+coverage.out
+.DS_Store
